@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "trebuchet MS",Helvetica , sans-serif;
+     background-color: #F4F2EC;
+}
+#container{
+     background: url(../imagens/fundo.png);
+     height: 150px;
+     position: relative;
+   
+}
+.topo{
+    margin: auto;
+    width: 85%;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 0.8em;
+    color: #916313;
+}
+
+.menu a:hover{
+    color: #227116;
+    text-decoration: underline;
+    
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+
+#principal{
+    width: 85%;
+    margin: auto;
+}
+
+.video-mapa{
+    display: flex;
+    width: 62%;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.video-mapa h3{
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    color: #22714D;
+    text-transform: uppercase;
+}
+
+
+
+.section2{
+    width: 320px;
+}
+
+.section2 ul li a{
+    font-size: 0.8em;
+    color: #D38C41;
+    text-decoration: none;
+    
+}
+
+.section2 ul li a:hover{
+    color: #227116;
+}
+
+.section2 p{
+    font-size: 0.8em;
+    line-height: 1.3;
+}
+
+a{
+    text-decoration: none;
+    color: #D38C41;
+}
+
+a:hover{
+    color: #22714D;
+}
+
+.menu2{
+    margin-left: 40px;
+}
+
+aside{
+    width: 27.5%;
+    float: right;
+    margin-top: -472px;
+    margin-right: 95px;
+    background: #EBE7DD;
+}
+
+section.visita{
+    background: #CDC8B1;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.visita h3{
+    text-transform: uppercase;
+    color: #86521A;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+label{
+    font-size: 0.8em;
+}
+
+input#data{
+    width: 8em;
+    font-size: 0.8em;
+}
+
+input#pessoas{
+    width: 3em;
+    font-size: 0.8em;
+}
+
+input#botao{
+    background: #9B9271;
+    margin: auto;
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    width: 300px;
+   color: white;
+}
+
+.foto{
+    padding: 20px;
+ 
+}
+.foto1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px 15px;
+    justify-content: center;
+}
+.fundo{
+    width: 126px;
+    height: 133px;
+    background: url(../imagens/fundo-foto.png) no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+footer{
+    clear: both;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+nav.menu-rodape{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 0.8em;
+    display: flex;
+    gap: 20px;
+}
+
+footer span{
+    font-size: 0.8em;
+    margin-bottom: 25px;
+}
